@@ -1,7 +1,5 @@
 from setuptools import find_packages, setup
 
-requirements = None
-
 
 def get_long_description():
     with open("Readme.md", "r", encoding="utf-8") as f:
@@ -15,7 +13,7 @@ setup(
     version="0.1.0",
     author="Wissam Antoun",
     author_email="wissam.antoun@gmail.com",
-    description="A simple Terminal UI (TUI) for Slurm",
+    description="A command line tool to create a sbatch file for a parameter file",
     long_description=get_long_description(),
     url="https://github.com/WissamAntoun/sbatch_paramfile",
     long_description_content_type="text/markdown",
@@ -26,8 +24,6 @@ setup(
             "sbatch_paramfile = sbatch_paramfile.main:entry_point",
         ],
     },
-    install_requires=requirements,
-    package_data=None,
     python_requires=">=3.6.0",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
