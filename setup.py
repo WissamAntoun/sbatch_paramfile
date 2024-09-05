@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 
 def get_long_description():
-    with open("Readme.md", "r", encoding="utf-8") as f:
+    with open("README.md", "r", encoding="utf-8") as f:
         long_description = f.read()
 
     return long_description
