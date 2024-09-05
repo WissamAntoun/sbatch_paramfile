@@ -4,7 +4,7 @@ requirements = None
 
 
 def get_long_description():
-    with open("README.md", "r", encoding="utf-8") as f:
+    with open("Readme.md", "r", encoding="utf-8") as f:
         long_description = f.read()
 
     return long_description
