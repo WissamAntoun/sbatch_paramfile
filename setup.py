@@ -10,7 +10,7 @@ def get_long_description():
 
 setup(
     name="sbatch_paramfile",
-    version="0.1.0",
+    version="0.1.1",
     author="Wissam Antoun",
     author_email="wissam.antoun@gmail.com",
     description="A command line tool to create a sbatch file for a parameter file",
